@@ -67,7 +67,7 @@ a {
 
 /* Reference: w3schools - Link: https://www.w3schools.com/css/css_syntax.asp */
 h2, h7 {
-  text-align:left;
+  text-align:centre;
   font-weight:normal;
   font-size:20px;
 }
