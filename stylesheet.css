@@ -1,0 +1,211 @@
+/* Reference: w3schools - Link: https://www.w3schools.com/css/ */
+body {margin:0;
+  padding:0;
+  background: white;
+  font-family:Arial;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css3_images.asp */
+/* Styles the ember logo inline with the nav bar */
+.logo img {
+  position:absolute;
+  margin-top:5px;
+  margin-left:30px;
+  height: 90px;
+  background:white;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
+/* Styles the nav bar */
+.nav{
+  width:100%;
+  top:0;
+  overflow:auto;
+  background:white;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
+li {
+  float: right;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
+a {
+  color:#fa762d;
+} 
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
+.nav a {
+  width:100px;
+  display:block;
+  padding:30px 30px;
+  text-decoration:none;
+  font-family:Arial;
+  font-size:20px;
+  color:black;
+  text-align:center;
+ }
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
+/* Styles the hover on the nav bar */
+.nav a:hover{color:#fa762d;}
+
+/* Reference - w3schools - Link: https://www.w3schools.com/css/css_boxmodel.asp */
+/* Styles the main box - with a light gray background and centers the text */
+.main {
+  padding: 24px 24px 24px 24px;
+  margin: 30px 30px 30px 30px;
+  background:#F8F8F8;
+  text-align:center;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_syntax.asp */
+h2, h7 {
+  text-align:left;
+  font-weight:normal;
+  font-size:20px;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css3_box-sizing.asp */
+* {
+  box-sizing: border-box;
+}
+
+/* Reference - w3schools - Link: https://www.w3schools.com/css/css_boxmodel.asp */
+/* formats the page for three columns */
+.column {
+  float: left;
+  width:33.33%;
+  padding:10px;
+  height:300px;
+  text-align:center;
+}
+
+/* Reference - w3schools - Link: https://www.w3schools.com/css/css_boxmodel.asp */
+/* formats the page for two columns */
+.twoColumn {
+  float: left;
+  width:50%;
+  padding:50px;
+  text-align:center;
+}  
+
+/* Reference - w3schools - Link: https://www.w3schools.com/css/css_boxmodel.asp */
+.row:after {
+  content: "";
+  display:table;
+  clear:both;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+/* Makes the page responsive */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+  .twoColumn {
+    width:100%;
+  }
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css3_images.asp */
+img {
+    max-width:50%;
+    height:auto;
+    text-align:center;
+    padding:10px;
+    margin:10px;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css3_buttons.asp */
+/* Reference: w3schools - Link: https://www.w3schools.com/cssref/css3_pr_transition-duration.asp */
+.button {
+  background-color:#fa762d;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css3_buttons.asp */
+.button:hover {
+  background-color: white; 
+  color:#fa762d; 
+  border: 2px solid #fa762d;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+   font-weight:normal;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css3_images.asp */
+.footer img {
+  text-align:left;
+  width: 50%;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_syntax.asp */
+h8 {
+  font-size:32px;
+  color:#fa762d;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
+.steps a:link, 
+.steps a:visited,
+.steps a:hover {
+  color:#fa762d;
+  text-decoration:none;
+}
+
+/* Reference - w3schools - Link: https://www.w3schools.com/css/css_boxmodel.asp */
+/* Styles the page box to have a white background */
+.white_main {
+  padding: 24px 24px 24px 24px;
+  margin: 30px 30px 30px 30px;
+  background:white;
+  text-align:center;
+}
+
+/* Reference: w3schools - Link: https://www.w3schools.com/css/css3_images.asp */
+/* Styles all the images found within the white_main class */
+.white_main img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 10px
+}
+
+/* Reference: ArcGIS JavaScript Tutorials: Display point, line, and polygon graphics - Link: https://developers.arcgis.com/labs/javascript/display-point-line-and-polygon-graphics/ */
+/* Used to format the final web application in the webpage */ 
+#viewDiv {
+      height: 100%;
+      width: 100%;
+      top: 50px;
+      left:50px;
+      right: 100px;
+      padding: 100px;
+      margin: 0px;
+      bottom:100px;
+      position: fixed;
+    }
