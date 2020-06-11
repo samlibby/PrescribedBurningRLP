@@ -78,15 +78,15 @@ h2 {
 }
 
 h7 {
-  text-align:centre;
+  text-align:center;
   font-weight:normal;
   font-size:20px;
 }
 
 h9 {
-  text-align:centre;
+  text-align:center;
   font-weight:bold;
-  font-size:30px;
+  font-size:50px;
 }
 
 /* Reference: w3schools - Link: https://www.w3schools.com/css/css3_box-sizing.asp */
