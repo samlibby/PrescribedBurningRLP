@@ -40,6 +40,11 @@ a {
   color:#fa762d;
 } 
 
+ol.a {text-align:left;
+    font-family:Arial;
+    font-size:20px;
+    color:black;}
+
 /* Reference: w3schools - Link: https://www.w3schools.com/css/css_navbar.asp */
 .nav a {
   width:100px;
