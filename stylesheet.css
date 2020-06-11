@@ -83,6 +83,12 @@ h7 {
   font-size:20px;
 }
 
+h9 {
+  text-align:centre;
+  font-weight:bold;
+  font-size:30px;
+}
+
 /* Reference: w3schools - Link: https://www.w3schools.com/css/css3_box-sizing.asp */
 * {
   box-sizing: border-box;
