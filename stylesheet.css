@@ -71,7 +71,13 @@ ol.a {text-align:left;
 }
 
 /* Reference: w3schools - Link: https://www.w3schools.com/css/css_syntax.asp */
-h2, h7 {
+h2 {
+  text-align:left;
+  font-weight:normal;
+  font-size:20px;
+}
+
+h7 {
   text-align:centre;
   font-weight:normal;
   font-size:20px;
