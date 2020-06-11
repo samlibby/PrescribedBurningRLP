@@ -62,10 +62,10 @@ a {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
-  padding: 14px 16px;
+  color: black;
+  padding: 30px 30px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: Arial;
   margin: 0;
 }
 
