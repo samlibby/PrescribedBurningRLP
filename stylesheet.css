@@ -139,8 +139,28 @@ img {
   transition-duration: 0.4s;
 }
 
+.button2 {
+  background-color:#fa762d;
+  color: white;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+}
+
 /* Reference: w3schools - Link: https://www.w3schools.com/css/css3_buttons.asp */
 .button:hover {
+  background-color: white; 
+  color:#fa762d; 
+  border: 2px solid #fa762d;
+}
+
+.button2:hover {
   background-color: white; 
   color:#fa762d; 
   border: 2px solid #fa762d;
