@@ -146,7 +146,7 @@ h9 {
   float: left;
   width:25%;
   padding:10px;
-  height:350px;
+  height:200px;
   text-align:center;
 }
 
@@ -172,6 +172,11 @@ h9 {
   .column {
     width: 100%;
   }
+  
+  .column4 {
+    width: 100%;
+  }
+  
   .twoColumn {
     width:100%;
   }
