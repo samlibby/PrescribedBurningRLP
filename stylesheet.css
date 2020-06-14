@@ -142,6 +142,14 @@ h9 {
   text-align:center;
 }
 
+.column4 {
+  float: left;
+  width:25%;
+  padding:10px;
+  height:350px;
+  text-align:center;
+}
+
 /* Reference - w3schools - Link: https://www.w3schools.com/css/css_boxmodel.asp */
 /* formats the page for two columns */
 .twoColumn {
