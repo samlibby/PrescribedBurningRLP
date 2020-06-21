@@ -137,8 +137,8 @@ h9 {
 .column {
   float: left;
   width:33.33%;
-  padding:10px;
-  height:350px;
+  padding:50px;
+  /*height:350px;*/
   text-align:center;
 }
 
