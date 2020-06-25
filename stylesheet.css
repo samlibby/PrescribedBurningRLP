@@ -379,8 +379,8 @@ div.content {
   height: 1000px;
 }
 
-/* On screens that are less than 1500px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1500px) {
+/* On screens that are less than 1700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1700px) {
   .sidebar {
     width: 100%;
     height: auto;
