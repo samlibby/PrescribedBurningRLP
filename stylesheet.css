@@ -368,7 +368,7 @@ img {vertical-align: middle;}
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: black;
   color: white;
 }
 
