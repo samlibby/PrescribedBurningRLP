@@ -384,7 +384,7 @@ div.content {
   .sidebar {
     width: 100%;
     height: auto;
-    position: relative;
+    position: sticky;
   }
   .sidebar a {float: left;}
   div.content {margin-left: 0;}
