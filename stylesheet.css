@@ -362,7 +362,7 @@ img {vertical-align: middle;}
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4CAF50;
+  background-color: #fa762d;
   color: white;
 }
 
@@ -379,8 +379,8 @@ div.content {
   height: 1000px;
 }
 
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+/* On screens that are less than 1500px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1500px) {
   .sidebar {
     width: 100%;
     height: auto;
